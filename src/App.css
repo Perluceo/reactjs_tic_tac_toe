@@ -70,6 +70,21 @@
     text-align: center;
     width: 94px;
   }
+
+  .game_button {
+    background: #3f8396;
+    border: 2px solid #96680a;
+    font-weight: bold;
+    width: 94px;
+    margin-top: 3px;
+    border-radius: 3px;
+  }
+
+  .li {
+    font-size: 16px;
+    font-weight: bold;
+    color:#96680a;
+  }
   
   .board-row:after {
     clear: both;
@@ -79,6 +94,7 @@
   
   .status {
     margin-bottom: 10px;
+    color:#96680a
   }
   .game {
     display: flex;
